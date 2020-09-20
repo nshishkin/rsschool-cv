@@ -1,0 +1,44 @@
+  
+#wrapper {
+    width: 1024px;
+    margin: 20px auto;
+    font-family: "Arial", "Times New Roman",sans-serif;
+    background-color: #f1f4f1;
+  }
+  h1 {
+    font-size: 250%;
+  }
+  .contact-info > p {
+    font-size: 80%;
+  }
+  .contact-info {
+    margin: 20px;
+    padding: 20px;
+  }
+  .photo {
+    margin: 80px 80px 10px 50px;
+  }
+  
+  .flex-container {
+    display: flex;
+  }
+  .flex-container-top {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column-header {
+    flex-basis: 40%;
+    margin-left: 20px;
+    padding: 20px;
+  }
+  .content {
+    align-self: flex-start;
+    flex-basis: 50%;
+  }
+  hr {
+    width: 90%;
+  }
+  a {
+    text-decoration: none;
+  }
